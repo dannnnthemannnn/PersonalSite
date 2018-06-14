@@ -1,6 +1,7 @@
 body {
     background-color: #0e0e0e;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 div.title {
@@ -19,7 +20,7 @@ div.title {
 .header .name {
     color: white;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 72px;
     line-height: 1;
 }
 
@@ -27,21 +28,21 @@ div.title {
     line-height: 1;
     color:white;
     text-align: right;
-    font-size: 11px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .header .subtitle .emphasis {
-    color: #6591b4;
+    color: #5cb0ff;
 }
 
 .title img {
     content: '';
     display: block;
     position: absolute;
-    top: -10%;
+    top: -30%;
     left: -10%;
-    width: 120%;
+    width: 130%;
     z-index: -2;
     opacity: 0.4;
 }
@@ -59,8 +60,8 @@ div.title {
 }
 
 .title .toolbar {
-    font-size: 13px;
-    margin: 80px 150px 0 150px;
+    font-size: 20px;
+    margin: 150px 150px 0 150px;
 }
 
 .title .toolbar a {
@@ -73,7 +74,7 @@ div.title {
 }
 
 .title .toolbar a:hover {
-    color: #6591b4;
+    color: #5cb0ff;
 }
 
 .title div.border {
