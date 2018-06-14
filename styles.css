@@ -1,0 +1,156 @@
+body {
+    background-color: #0e0e0e;
+    color: white;
+}
+
+div.title {
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 0;
+}
+
+.header {
+    z-index: 1;
+    margin-top: 185px;
+    display: inline-block;
+}
+
+.header .name {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+}
+
+.header .subtitle {
+    line-height: 1;
+    color:white;
+    text-align: right;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.header .subtitle .emphasis {
+    color: #6591b4;
+}
+
+.title img {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.title .img-overlay {
+    display: block;
+    width: 100%;
+    opacity: 0.85;
+    left: 0;
+    margin-top: 75px;
+}
+
+.title .img-overlay polygon {
+    fill: #1e374f;
+}
+
+.title .toolbar {
+    font-size: 13px;
+    margin: 80px 150px 0 150px;
+}
+
+.title .toolbar a {
+    color: white;
+}
+
+.title .toolbar a:hover,
+.title .toolbar a:active { 
+    text-decoration: none;
+}
+
+.title .toolbar a:hover {
+    color: #6591b4;
+}
+
+.title div.border {
+    width: 100%;
+    height: 205px;
+}
+
+.about-me div {
+    background-color: #333333;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.about-me div.title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.about-me div.margin {
+    background-color: transparent;
+}
+
+.about-me .photos {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.about-me .photos img {
+    display: block;
+    float: left;
+    height: 100%;
+}
+
+.about-me .photos .crop {
+    height: 250px;
+    overflow: hidden;
+    float: left;
+}
+
+.about-me .photos .crop img#buenos {
+    margin-left: 0px;
+}
+
+.about-me .photos .crop img#lauren {
+    margin-left: -135px;
+}
+
+.about-me .photos .crop img#equator {
+    margin-top: -40px;
+}
+
+.about-me .photos .crop img#smile {
+    margin-top: -40px;
+}
+
+.about-me .description {
+    text-align: left;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.about-me .img-overlay {
+    z-index: 0;
+    margin-top: -60px;
+    display: block;
+    width: 100%;
+    left: 0;
+}
+
+.about-me .img-overlay polygon {
+    fill: white;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
